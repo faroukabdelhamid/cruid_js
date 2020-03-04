@@ -1,0 +1,85 @@
+
+
+body
+{
+    font-family: "segeo ui light"
+}
+.item-caption
+{
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    left: 10%;
+}
+
+.item
+{
+    position: relative;
+}
+
+.item-img
+{
+    cursor: pointer
+}
+
+
+.lightBoxContainer
+{
+    background-color: rgba(0,0,0,0.7);
+    
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    
+    
+    display: none;
+}
+
+
+
+
+.lightBoxContainer .lightBoxInner
+{
+    width: 50%;
+    height: 500px;
+    background-image: url(../images/portfolio-1.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    padding: 10px;
+}
+
+
+#close
+{
+    position: absolute;
+    
+    top: 20px;
+    right: 20px;
+}
+
+#close , #next , #prev
+{
+    cursor: pointer
+}
+
+
+
+
+
+.show
+{
+    display: flex
+}
+
+
+
+
+
+
+
+
+
+
